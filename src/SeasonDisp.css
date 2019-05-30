@@ -1,0 +1,38 @@
+.ic-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.ic-right {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.season-disp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Winter {
+  background-color: linear-gradient(
+    111.23701674190033deg,
+    rgba(167, 204, 225, 1) 5.911420204978038%,
+    rgba(236, 246, 237, 1) 95.95534407027817%
+  );
+}
+
+.Summer {
+  background: linear-gradient(45deg, #d53369 0%, #daae51 100%);
+  color: white;
+}
+
+.season-disp.Summer i {
+  color: orange;
+}
+
+.season-disp.Winter i {
+  color: black;
+}
